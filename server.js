@@ -146,8 +146,7 @@ app.get("/", (req, res) => {
     res.send(
       "<h1>" +
         process.env.PROJECT +
-        "</h1><p>Oh, hi! There's not much to see here - view the code instead:</p>" +
-        '<script src="https://github.com/postman-open-technologies/postman-student-expert" data-style="glitch"></script><div class="glitchButton" style="position:fixed;top:20px;right:20px;"></div>'
+        "</h1><p>Oh, hi! There's not much to see here - view <a href='https://github.com/postman-open-technologies/postman-student-expert'>the code</a> instead:</p>"
     );
 });
 
